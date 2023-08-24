@@ -1,0 +1,16 @@
+PODS:
+  - BAlertKit (0.1.0)
+
+DEPENDENCIES:
+  - BAlertKit (from `../`)
+
+EXTERNAL SOURCES:
+  BAlertKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BAlertKit: 4e861b50a4fcb7f3ec5ee5655d00d8d46c93f33c
+
+PODFILE CHECKSUM: 5a57a8ff2af99f3ff53e427b5c08b4af8a0ac4b8
+
+COCOAPODS: 1.11.3
