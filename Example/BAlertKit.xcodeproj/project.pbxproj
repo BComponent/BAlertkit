@@ -21,6 +21,12 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		63BF95492A9C2B4900CED2CE /* KeyboardPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF953E2A9C2B4800CED2CE /* KeyboardPopView.m */; };
+		63BF954A2A9C2B4900CED2CE /* LGOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF953F2A9C2B4800CED2CE /* LGOneController.m */; };
+		63BF954B2A9C2B4900CED2CE /* CenterPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF95412A9C2B4800CED2CE /* CenterPopView.m */; };
+		63BF954C2A9C2B4900CED2CE /* TopBarPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF95432A9C2B4800CED2CE /* TopBarPopView.m */; };
+		63BF954D2A9C2B4900CED2CE /* FullPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF95462A9C2B4900CED2CE /* FullPopView.m */; };
+		63BF954E2A9C2B4900CED2CE /* BottomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF95472A9C2B4900CED2CE /* BottomPopView.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DD22C51EDF38829CD14E3EF0 /* Pods_BAlertKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92320C244C60535C1CD33C8 /* Pods_BAlertKit_Example.framework */; };
@@ -59,6 +65,18 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6093A4BBE6305670A5CAC824 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63BF953D2A9C2B4800CED2CE /* FullPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullPopView.h; sourceTree = "<group>"; };
+		63BF953E2A9C2B4800CED2CE /* KeyboardPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardPopView.m; sourceTree = "<group>"; };
+		63BF953F2A9C2B4800CED2CE /* LGOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGOneController.m; sourceTree = "<group>"; };
+		63BF95402A9C2B4800CED2CE /* KeyboardPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardPopView.h; sourceTree = "<group>"; };
+		63BF95412A9C2B4800CED2CE /* CenterPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterPopView.m; sourceTree = "<group>"; };
+		63BF95422A9C2B4800CED2CE /* BottomPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomPopView.h; sourceTree = "<group>"; };
+		63BF95432A9C2B4800CED2CE /* TopBarPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarPopView.m; sourceTree = "<group>"; };
+		63BF95442A9C2B4800CED2CE /* CenterPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterPopView.h; sourceTree = "<group>"; };
+		63BF95452A9C2B4900CED2CE /* TopBarPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarPopView.h; sourceTree = "<group>"; };
+		63BF95462A9C2B4900CED2CE /* FullPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullPopView.m; sourceTree = "<group>"; };
+		63BF95472A9C2B4900CED2CE /* BottomPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomPopView.m; sourceTree = "<group>"; };
+		63BF95482A9C2B4900CED2CE /* LGOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGOneController.h; sourceTree = "<group>"; };
 		680107D76EF7A11336422488 /* Pods-BAlertKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BAlertKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-BAlertKit_Example/Pods-BAlertKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		689C7C8D932698A7D07F02E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		715E190398060740CDDB4384 /* BAlertKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BAlertKit.podspec; path = ../BAlertKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -143,6 +161,18 @@
 		6003F593195388D20070C39A /* Example for BAlertKit */ = {
 			isa = PBXGroup;
 			children = (
+				63BF95422A9C2B4800CED2CE /* BottomPopView.h */,
+				63BF95472A9C2B4900CED2CE /* BottomPopView.m */,
+				63BF95442A9C2B4800CED2CE /* CenterPopView.h */,
+				63BF95412A9C2B4800CED2CE /* CenterPopView.m */,
+				63BF953D2A9C2B4800CED2CE /* FullPopView.h */,
+				63BF95462A9C2B4900CED2CE /* FullPopView.m */,
+				63BF95402A9C2B4800CED2CE /* KeyboardPopView.h */,
+				63BF953E2A9C2B4800CED2CE /* KeyboardPopView.m */,
+				63BF95482A9C2B4900CED2CE /* LGOneController.h */,
+				63BF953F2A9C2B4800CED2CE /* LGOneController.m */,
+				63BF95452A9C2B4900CED2CE /* TopBarPopView.h */,
+				63BF95432A9C2B4800CED2CE /* TopBarPopView.m */,
 				6003F59C195388D20070C39A /* FFAppDelegate.h */,
 				6003F59D195388D20070C39A /* FFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -207,7 +237,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0C5DB896B5759977941E9B64 /* [CP] Embed Pods Frameworks */,
+				DC9BF14D1C879BBFAD1C02E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +277,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1250829271@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ULNFL5C546;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,24 +328,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C5DB896B5759977941E9B64 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BAlertKit_Example/Pods-BAlertKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BAlertKit/BAlertKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BAlertKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BAlertKit_Example/Pods-BAlertKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5CA1FFF14912D986BBE2200E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +372,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DC9BF14D1C879BBFAD1C02E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BAlertKit_Example/Pods-BAlertKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BAlertKit/BAlertKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BAlertKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BAlertKit_Example/Pods-BAlertKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -367,6 +402,12 @@
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				63BF954B2A9C2B4900CED2CE /* CenterPopView.m in Sources */,
+				63BF954A2A9C2B4900CED2CE /* LGOneController.m in Sources */,
+				63BF954D2A9C2B4900CED2CE /* FullPopView.m in Sources */,
+				63BF95492A9C2B4900CED2CE /* KeyboardPopView.m in Sources */,
+				63BF954E2A9C2B4900CED2CE /* BottomPopView.m in Sources */,
+				63BF954C2A9C2B4900CED2CE /* TopBarPopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +535,7 @@
 			baseConfigurationReference = 680107D76EF7A11336422488 /* Pods-BAlertKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ULNFL5C546;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BAlertKit/BAlertKit-Prefix.pch";
 				INFOPLIST_FILE = "BAlertKit/BAlertKit-Info.plist";
@@ -510,6 +552,7 @@
 			baseConfigurationReference = D61169BA122C221422AD554F /* Pods-BAlertKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ULNFL5C546;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BAlertKit/BAlertKit-Prefix.pch";
 				INFOPLIST_FILE = "BAlertKit/BAlertKit-Info.plist";

@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "BPopupConfigure.h"
+#import "BPopupInterface.h"
+#import "BPopupsManager.h"
 
 FOUNDATION_EXPORT double BAlertKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char BAlertKitVersionString[];

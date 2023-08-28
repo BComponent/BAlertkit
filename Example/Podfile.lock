@@ -1,16 +1,23 @@
 PODS:
-  - BAlertKit (0.1.0)
+  - BAlertKit/BPopViewManager (0.1.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - BAlertKit (from `../`)
+  - BAlertKit/BPopViewManager (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   BAlertKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BAlertKit: 4e861b50a4fcb7f3ec5ee5655d00d8d46c93f33c
+  BAlertKit: 30ddd08e6412f76ed6f8c0bca8a1e42ef36c8256
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 5a57a8ff2af99f3ff53e427b5c08b4af8a0ac4b8
+PODFILE CHECKSUM: 6d1a65f3c5ba742809e7239d8c02172b99f56053
 
 COCOAPODS: 1.11.3

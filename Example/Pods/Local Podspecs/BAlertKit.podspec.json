@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of BAlertKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1250829271@qq.com/BAlertKit",
+  "homepage": "https://github.com/BComponent/BAlertkit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "1250829271@qq.com": "wangbaoming@log56.com"
   },
   "source": {
-    "git": "https://github.com/1250829271@qq.com/BAlertKit.git",
+    "git": "https://github.com/BComponent/BAlertkit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "BAlertKit/Classes/**/*"
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "BPopViewManager",
+      "source_files": "BAlertKit/Classes/BPopViewManager/*.{h,m}"
+    }
+  ]
 }
